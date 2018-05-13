@@ -1,4 +1,9 @@
 // vue.config.js
 module.exports = {
-  lintOnSave: true
+  lintOnSave: true,
+  configureWebpack: {
+    devServer: {
+      disableHostCheck: true
+    }
+  }
 }
